@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Shop</title>
+		<meta charset="utf-8">
+		<script src="js/script.js"></script>
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<p>Форма изменения статуса товара</p>
+		<form method="POST">
+			<label><input type="radio" name="choose" value="out">Пометить как "нет в наличии"</label><br>
+			<label><input type="radio" name="choose" value="in">Пометить как "имеется в наличии"</label><br>
+			<label><input type="radio" name="choose" value="del">Удалить товар</label><br>
+			<input type="submit"value="Закончить"><br>
+		</form>
+		<hr>
+		<p>Форма редактирования товара</p>
+		<form method="POST">
+			<label>Название:<br><input type="text" name="name"></label><br>
+			<label>Цена:<br><input type="text" name="price"></label><br>
+			<label>Цвет:<br><input type="text" name="color"></label><br>
+			<label>Теги(через запятую):<br><input type="text" name="tags"></label><br>
+			<input type="submit"value="Закончить"><br>
+		</form>
+	</body>
+</html>
