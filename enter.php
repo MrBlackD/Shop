@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 	<head>
 		<title>Enter</title>
@@ -7,7 +7,7 @@
 		<link href="css/style.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
-		<form action="adm.php" method="POST">
+		<form action="" method="POST">
 			<label>Логин:<br><input type="text" name="login"><br></label>
 			<label>Пароль:<br><input type="password" name="pass"><br></label>
 			

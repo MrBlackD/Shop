@@ -17,7 +17,5 @@
 	{
 		exit("<p>В настоящий момент база данных не доступна, поэтому корректное отбражение страницы невозможно </p>");
 	}
-		mysql_query('SET NAMES cp1251',$dbcnx);          
-		mysql_query('SET CHARACTER SET cp1251',$dbcnx);  
-		mysql_query('SET COLLATION_CONNECTION="cp1251_general_ci"',$dbcnx);
+
 ?>
